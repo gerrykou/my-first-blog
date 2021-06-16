@@ -17,6 +17,10 @@
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
+h1 a, h2 a {
+    color: #1b8099;
+    font-family: 'Lobster';
+}
 
 .date {
     color: #828282;
@@ -42,5 +46,5 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #000000;
+    color: #1b8099;
 }
