@@ -6,8 +6,8 @@
 
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #FF0000;
+h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #000000;
     font-size: 50pt;
     text-decoration: none;
 }
@@ -19,10 +19,18 @@
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
-h1 a, h2 a {
+h1{
     color: #1b8099;
     font-family: 'Lobster';
-    font-size:2.2em;
+    font-size:4em;
+}
+h2 {
+    color: #1b8099;
+    font-family: 'Lobster';
+    font-size:3em;
+}
+p{
+    font-size:1.1em;
 }
 
 .date {
@@ -45,13 +53,13 @@ h1 a, h2 a {
 }
 
 .post {
-    margin-top:15px;
+    margin-top:20px;
     margin-bottom: 30px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-family:monospace;
 }
 
-.post h2 a, .post h2 a:visited {
+.post h2, .post h2 a:visited {
     color: #1b8099;
 
 }
@@ -68,11 +76,8 @@ h1 a, h2 a {
 }
 
 body{
-    height: 100%;
-    width: 100%;
-    padding-left: 15px;
+    padding-left: 10px;
     margin-top:1px;
     margin-left:1px;
-    color:#FF0000;
-    
+    color:#000000;
 }
