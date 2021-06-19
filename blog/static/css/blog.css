@@ -1,17 +1,19 @@
 .page-header {
-    background: #1b8099;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    background-color: #C25100;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px 10px 20px 40px;
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #1b8099;
-    font-size: 36pt;
+    color: #FF0000;
+    font-size: 50pt;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 10px;
 }
 
 h1, h2, h3, h4 {
@@ -20,6 +22,7 @@ h1, h2, h3, h4 {
 h1 a, h2 a {
     color: #1b8099;
     font-family: 'Lobster';
+    font-size:2.2em;
 }
 
 .date {
@@ -37,14 +40,38 @@ h1 a, h2 a {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 30pt;
     margin-right: 20px;
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-top:15px;
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    font-family:monospace;
 }
 
 .post h2 a, .post h2 a:visited {
     color: #1b8099;
+
+}
+.btn-default,
+.btn-default:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-default:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+    margin-top:1px;
+    margin-left:1px;
+    
 }
